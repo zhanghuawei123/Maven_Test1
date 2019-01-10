@@ -2,12 +2,14 @@ package com.qianfeng.dao;
 
 import com.qianfeng.entity.Student;
 import com.qianfeng.entity.Teacher;
+import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
 /**
  * 完成学生的增删改查
  */
+@Repository
 public interface StudentMapper {
     /**
      * 检查老师的数据库，看是否存在
