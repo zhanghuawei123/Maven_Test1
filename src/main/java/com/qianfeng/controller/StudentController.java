@@ -15,4 +15,12 @@ public class StudentController {
     @Autowired
     private StudentService studentService;
 
+    public void update(){
+        System.out.println("看git的update功能");
+    }
+
+    public void add(){
+        System.out.println("查看commit功能");
+    }
+
 }
