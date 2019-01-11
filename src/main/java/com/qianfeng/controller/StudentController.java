@@ -23,4 +23,8 @@ public class StudentController {
         System.out.println("查看commit功能");
     }
 
+    public void delete(){
+        System.out.println("我的进行提交");
+    }
+
 }
